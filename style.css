@@ -1,0 +1,402 @@
+.firstLayer {
+    background: url('./image/otkryvaem_trenazhernyi_zal\ 1.png') no-repeat;
+    width: 1440px;
+    height: 1024px;
+}
+.container {
+    position: flex;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.81) 100%);
+    width: 1440px;
+    height: 205px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    color:#ffffff;
+    
+}
+
+.logo-div {
+    padding: 20px 0px 20px 30px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    list-style-type: none;
+    
+    
+    
+}
+.logo {
+    width: 150px;
+    height: 100px;
+    padding-left: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu {
+    padding: 65px;
+    padding-left: 450px;
+    display: flex;
+    color:#ffffff;
+}
+
+.menu a {
+    display: flex;
+    flex-direction: row;
+    padding-right:70px;
+    color: white;
+    font-size: 30px;
+    font-family: Roboto;
+    text-decoration: none;
+    }
+.geo .address {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 80px;
+    margin: 15px;
+    
+}
+
+
+.callBtn {
+    background-color: #FF1717;
+    margin: 5px 20px 0 10px;
+    width: 200px;
+    height: 40px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.callBtn:hover {
+    background-color: #E51818;
+}
+
+a:hover {
+    color: #FF9797;
+}
+
+.description {
+    position: absolute;
+    width: 1047px;
+    height: 767px;
+    left: 30px;
+    top: 230px;
+    background: rgba(39, 37, 37, 0.7);
+}
+
+.panther {
+    padding-top: 60px;
+    padding-left: 30px;
+    color:white;
+    font: 120px sans-serif;
+}
+
+.descr {
+    color: white;
+    font-family: Roboto sans-serif;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.sale {
+    background: url('./image/sale.png') center center;
+    position: absolute;
+    width: 1440px;
+    height: 332px;
+}
+
+.NewYear {
+    background: url('./image/unnamed.png') center center/cover no-repeat;
+    width: 1440px;
+    height: 751px;
+    padding-top: 300px;
+}
+
+.saleh2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 84px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-left: 81px;
+    padding-top: 37px;
+
+}
+.salefroze {
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF0000;
+    padding-left: 81px;
+}
+
+.saleprice {
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF0000;
+    padding-left: 81px;
+}
+
+.salemanager {
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:white;
+    padding-left: 81px;
+}
+.details {
+    margin-top: 35px;
+    margin-left: 81px;
+    width: 300px;
+    height: 60px;
+    background-color: #FF1717;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+}
+
+.details:hover {
+    background-color: #E51818;
+}
+.zone {
+    position: relative;
+    width: 1440px;
+    height: 1250px;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.79) 100%);
+    }
+
+.trainzone {
+        position: absolute;
+        width: 1071px;
+        height: 111px;
+        left: 185px;
+        top: -11px; 
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 84px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+.zone_wrapper {
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: space-around;
+    }
+
+.zone_img {
+        /* display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between; */
+        width: 630px;
+        height: 420px;
+        padding-top: 100px;
+       
+    }
+
+.zone_descr {
+        color:white;
+        font-size: 25px;
+        padding-top: 15px;
+        text-align: center;
+    }
+
+.services {
+        position: relative;
+        width: 1440px;
+        height: 1261px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.79) 0%, #000000 100%);
+    }
+
+.servise_h1 {
+        position: absolute;
+        width: 1071px;
+        height: 111px;
+        left: 185px;
+        top: -40px; 
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 84px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+.service_wrapper {
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: space-around;
+    }
+
+    .service_img {
+        width: 630px;
+        height: 420px;
+        padding-top: 100px;
+    }
+
+.service_descr {
+        color:white;
+        font-size: 25px;
+        padding-top: 15px;
+        text-align: center;
+    }
+
+.change {
+        position: relative;
+        width: 1440px;
+        height: 409px;
+        background:#9DC1C1;
+        
+    }
+    .change_item {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+        padding-top: 50px;
+    }
+
+    .change_img {
+        width: 250px;
+        height: 214px;
+        left: 1040px;
+        top: 38px;
+        border-radius: 8px;
+    }
+
+    .change_btn {
+        margin-top: 35px;
+        margin-left: 605px;
+        width: 230px;
+        height: 60px;
+        background-color: #FF1717;
+        border-radius: 8px;
+        color: white;
+        font-size: 20px;
+        align-items: center;
+    }
+
+    .change_btn:hover {
+        background-color: #E51818;
+    }
+
+.gallery {
+  width: 1440px;
+  height: 800px;
+  margin-top: -53px;
+  background-color: black;
+}
+
+.gallery-text {
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.video {
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    padding-left: 210px;
+}
+
+.googlecard {
+    width: 1440px;
+    height: 700px;
+    background-color:#124F4F;
+}
+
+.clubadres {
+color: white;
+font-size: 50px;
+text-align: center;
+margin-top: -30px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 75px;
+padding-top: 40px;
+}
+
+.card {
+    width: 1410px;
+    height: 515px;
+    padding-left: 15px;
+}
+
+footer {
+    margin-top: -15px;
+    padding-top: 20px;
+    width: 1440px;
+    height: 150px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+.messenger {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.whattsup,
+.viber,
+.vk,
+.insta,
+.tg {
+    width: 60px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+@media (max-width : 992px)
+    .firstLayer
+        width:30%
