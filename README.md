@@ -1,1 +1,1 @@
-# panthera
+https://bushuevigor.github.io/panthera/
